@@ -1,0 +1,48 @@
+#hero-section {
+    background: linear-gradient(137deg, #00e2ff, #0059ff);
+    height: 55vh;
+    z-index: -999;
+}
+
+.hero-logo-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 18px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#abs-hero-div {
+    position:absolute;
+    top:30px;
+    left:30px;
+    right:30px;
+    bottom: 30px;
+    padding-top:120px;
+}
+#myCanvasContainer {
+    padding: 50px 50px;
+}
+
+#myCanvasContainer li {
+    font-family: 'Rubik',sans-serif;
+}
+
+canvas {
+    width:100%;
+    height:100%;
+}
