@@ -896,6 +896,9 @@
 }
 
 @media (max-width: 767px) {
+  .title-block {
+    padding:10px 50px;
+  }
   .navbar-brand {
     margin-left: 37px;
   }
@@ -942,6 +945,9 @@
 }
 
 @media (max-width: 479px) {
+  .title-block {
+    padding:10px 50px;
+  }
   .navbar-brand {
     margin-left: 15px;
   }
@@ -975,29 +981,4 @@
   .footer-text {
     margin-bottom: 0px;
   }
-}
-
-@font-face {
-  font-family: 'fa-brands 400';
-  src: url('../fonts/fa-brands-400.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'fa-solid 900';
-  src: url('../fonts/fa-solid-900.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'fa-light 300';
-  src: url('../fonts/fa-light-300.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'fa-regular 400';
-  src: url('../fonts/fa-regular-400.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
 }
