@@ -897,7 +897,7 @@
 
 @media (max-width: 767px) {
   .title-block {
-    padding:10px 50px;
+    padding:10px 5%;
   }
   .navbar-brand {
     margin-left: 37px;
@@ -946,7 +946,7 @@
 
 @media (max-width: 479px) {
   .title-block {
-    padding:10px 50px;
+    padding:10px 5%px;
   }
   .navbar-brand {
     margin-left: 15px;
